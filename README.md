@@ -1,1 +1,1 @@
-# Medical-Paradise
+# Medical Paradise
