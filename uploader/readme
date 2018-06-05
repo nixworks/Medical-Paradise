@@ -3,11 +3,11 @@ python3 (3.4, 3.5, 3.6, 3.8)
 python-requests
 mktorrent
 Installation
-wget https://github.com/grm34/awesome-uploader/archive/master.zip
+wget https://github.com/nixworks/Medical-Paradise/archive/master.zip
 unzip master.zip
-mv awesome-uploader-master/awesome-uploader awesome-uploader
-rm -rf master.zip awesome-uploader-master
-nano awesome-uploader/conf/config.py
+mv uploader-master/uploader uploader
+rm -rf master.zip uploader-master
+nano uploader/conf/config.py
 Configuration
 Logs:
 
