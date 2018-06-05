@@ -1,0 +1,45 @@
+Dependencies
+python3 (3.4, 3.5, 3.6, 3.8)
+python-requests
+mktorrent
+Installation
+wget https://github.com/grm34/awesome-uploader/archive/master.zip
+unzip master.zip
+mv awesome-uploader-master/awesome-uploader awesome-uploader
+rm -rf master.zip awesome-uploader-master
+nano awesome-uploader/conf/config.py
+Configuration
+Logs:
+
+level: set loglevel (level: CRITICAL, ERROR, WARNING, INFO, DEBUG, NOTSET)
+path: set path to store activity logs
+Tracker:
+
+authkey: set your tracker authkey
+url_announce: set tracker api url announce
+User:
+
+working_dir: path of releases to upload
+torrents_dir: path to store .torrents files
+watch_dir: your watch dir path
+upload_dir: path of releases in seed
+Api:
+
+layer13_url: http://api.layer13.net/v1/
+layer13_apikey: set your layer13 api key
+srrdb_url: https://www.srrdb.com/api/nfo/
+Releases category:
+
+Set tracker category number
+Teams:
+
+Match only some animes and games teams.
+Regex:
+
+Match tracker categories
+Patterns:
+
+includes: match only included files
+excludes: delete excluded files
+Usage
+python3 uploader/uploader.py
